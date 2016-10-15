@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/red_num_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ce2326"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/green_num_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ce2326"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_traffic_light"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/num_txt"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/ic_red_traffic_light" />
+
+</RelativeLayout>
